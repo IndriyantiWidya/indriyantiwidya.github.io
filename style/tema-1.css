@@ -1,0 +1,231 @@
+/* START BODY */
+body {
+    background-color: azure;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+/* END BODY */
+
+/* START DEBUG */
+.bg-blue {
+    background-color: blue;
+}
+.bg-red {
+    background-color: red;
+}
+/* END DEBUG */
+
+/* START LOGO */
+.logo {
+    text-align: center
+}
+.logo h1 {
+    margin: 0%;
+    float: left;
+    text-align: left;
+}
+.logo img {
+    float: left;
+}
+/* END LOGO */
+
+/* START CONTAINER */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+    background-color: rgb(7, 102, 97);
+}
+.container-full h5 {
+    font-size: 16px;
+    padding: 0 40px;
+}
+/* END CONTAINER */
+
+/* START ANCHOR / HYPERLINK */
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: greenyellow;
+    color: olive;
+    text-decoration: none;
+}
+/* START ANCHOR / HYPERLINK */
+
+/* START HEADER */
+.header ul {
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    box-shadow: 
+    0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+.header li {
+    border-right: 1px solid beige;
+    display: inline-block;
+}
+.header a {
+    color: aliceblue;
+    font-size: 16px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.header a:hover {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+}
+.header .active{
+    background-color: aliceblue;
+    color: darkolivegreen;
+    text-decoration: none;
+}
+/* END HEADER */
+
+/* START HEADING  */
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 13px;
+}
+/* START HEADING */
+
+/* START JUMBOTRON */
+.jumbotron {
+    background-color: aliceblue;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 5px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h2 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* END JUMBOTRON */
+
+/* START BODY */
+.box-short {
+    border: solid 1px rgb(4, 83, 66);
+    background-color: rgba(144, 207, 186, 0.829);
+    width: 85%;
+    overflow: auto;
+    border-radius: 20px 20px 20px 20px; /*Top-Left Top-Right Bottom-Left Bottom-Right */
+    padding: 10px 20px;
+    margin: auto;
+}
+/* END BODY */
+
+/* START BOX */
+.box1 {
+    width: 48.9%;
+    float: left;
+}
+.box2 {
+    width: 48.9%;
+    float: right;
+}
+.box-heading {
+    border: solid 1px black;
+    background-color: greenyellow;
+    border-radius: 5px 5px 0 0; /*Top-Left Top-Right Bottom-Left Bottom-Right */
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.box-heading h3 {
+    margin: 0;
+}
+.box-content {
+    border: solid 1px darkolivegreen;
+    margin: 5px, 0px;
+    padding: 0px 10px;
+    height: 150px;
+}
+/* END BOX */
+
+/* START FOOTER BOX */
+.footer-left {
+    width: 40%;
+    float: left;
+    padding: 0;
+}
+.footer-left h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 0;
+}
+.footer-middle {
+    width: 20%;
+    float: left;
+}
+.footer-middle li {
+    padding: 2px 0px;
+}
+.footer-right {
+    width: 30%;
+    float: left;
+}
+.footer-right img {
+    vertical-align: middle;
+    padding: 0 3px;
+}
+.footer-right h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.copy {
+    padding: 0 20px;
+    font-size: 14px;
+}
+/* END FOOTER BOX */
+
+/* START VISI-MISI */
+.box-heading-v {
+    border: solid 1px black;
+    background-color: greenyellow;
+    border-radius: 5px 5px 0 0; /*Top-Left Top-Right Bottom-Left Bottom-Right */
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.box-content h4 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+}
+/* END VISI-MISI */
